@@ -131,7 +131,7 @@ int main()
     str = "boy";
     firstTree.add(str);
     firstTree.print();
-    firstTree.add("fuck");
+    firstTree.add("word");
     vector<string> vect = firstTree.get(); 
     for (auto x : vect) cout << x << endl;
 }
